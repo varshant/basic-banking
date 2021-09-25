@@ -31,7 +31,7 @@
         </li>
       </ul>
       <a class="navbar-brand" href="index.php">Home</a>
-    <a class="navbar-brand" href="txnhistory">Txn History</a>
+    <a class="navbar-brand" href="txnhistory.php">Txn History</a>
   </div>
   </header>
     
