@@ -30,6 +30,7 @@
         </li>
       </ul>
         <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="index.php">New User</a>
         <a class="navbar-brand" href="customer.php">All Users</a>
   </div>
   </header>
