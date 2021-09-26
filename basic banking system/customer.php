@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>indexphp</title>
+    <title>Users</title>
     
     <link rel="stylesheet"
         href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
@@ -31,6 +31,7 @@
         </li>
       </ul>
       <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand" href="index.php">New User</a>
     <a class="navbar-brand" href="txnhistory.php">Txn History</a>
   </div>
   </header>
