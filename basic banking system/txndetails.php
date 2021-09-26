@@ -38,14 +38,18 @@ if (isset($_POST['submit'])) {
         $sql = "UPDATE dummyusers set balance=$newbalance where id=$to";
         mysqli_query($conn, $sql);
 
-        $sql="INSERT INTO `txnn` (`sender`, `receiver`, `amount`, `date`) VALUES ('$sender','$receiver' , '$amount', CURRENT_TIMESTAMP);";
+        $sql="INSERT INTO `txnn` (`sender`, `receiver`, `amount`, `date`) VALUES ('$sender','$receiver','$amount', CURRENT_TIMESTAMP);";
         $query = mysqli_query($conn, $sql);
-
+      
         if ($query) {
             echo '<script>';
             echo ' swal("SUCCESS!", "Transaction successful  !!", "success");'; 
             echo '</script>';
         }
+        else{
+            echo " error: $query <br> $conn->error";
+        }
+       $conn->close();
     }
 }
 ?>
