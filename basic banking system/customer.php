@@ -30,7 +30,7 @@
           <h5>All Users</h5>
         </li>
       </ul>
-      <a class="navbar-brand" href="index.php">Home</a>
+      <a class="navbar-brand" href="index.html">Home</a>
     <a class="navbar-brand" href="txnhistory.php">Txn History</a>
   </div>
   </header>
