@@ -27,12 +27,12 @@
           <h5>Txn History</h5>
         </li>
       </ul>
-        <a class="navbar-brand" href="index.php">Home</a>
+        <a class="navbar-brand" href="index.html">Home</a>
         <a class="navbar-brand" href="customer.php">All Users</a>
   </div>
   </header>
 
-    <a class="navbar-brand" href="index.php">Home</a>
+    <a class="navbar-brand" href="index.html">Home</a>
             <a class="navbar-brand" href="customer.php">All Users</a>
 
     <div class="jumbotron jumbotron-fluid">
